@@ -10,3 +10,18 @@
 .container {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* styles.css */
+@keyframes moveRight {
+  0% {
+    transform: translateX(-100%); /* Start from the right side */
+  }
+  100% {
+    transform: translateX(500%); /* Move to the left side */
+  }
+}
+
+.animate-moveRight {
+  animation: moveRight 9s linear infinite; /* Adjust the duration and other parameters as needed */
+}
+
