@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,4 +23,20 @@
 .animate-moveRight {
   animation: moveRight 9s linear infinite; /* Adjust the duration and other parameters as needed */
 }
+
+/* @keyframes wavy {
+  0%, 100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.8);
+  }
+}
+
+.border-wavy {
+  animation: wavy 2s infinite;
+  border-image-source: url('./path/to/your/wavy-pattern.png');
+  border-image-slice: 10;
+  border-image-repeat: round;
+} */
 

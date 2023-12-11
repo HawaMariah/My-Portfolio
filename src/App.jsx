@@ -1,11 +1,16 @@
-import Home from "./components/Home"
-
+// import Home from "./components/Home"
+import Animated from "./components/Animated";
+import Landing from "./components/Landing";
 function App() {
   return (
+    <>
     <div>
-      <Home/>
+      <Animated />
+      {/* <Home/>  */}
+      <Landing />
     </div>
-  )
+    </>
+  );
 }
 
-export default App
+export default App;
