@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .custom-shadow {
-  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: -10px 10px 6px rgba(219, 211, 211, 0.2);
 }
 
-.container {
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+.containerr {
+  box-shadow: 10px 10px 5px rgba(250, 249, 249, 0.2);
 }
 
 /* styles.css */
@@ -22,6 +22,9 @@
 
 .animate-moveRight {
   animation: moveRight 9s linear infinite; /* Adjust the duration and other parameters as needed */
+}
+.flexing {
+  @apply flex justify-center;
 }
 
 /* @keyframes wavy {
@@ -40,3 +43,11 @@
   border-image-repeat: round;
 } */
 
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin {
+  animation: spin 10s linear infinite;
+}
