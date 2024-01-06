@@ -9,7 +9,7 @@ function Contact() {
     <>
       <div className="">
    <img src={img1} alt=""
-   className=" w-[100vw]" />
+   className=" w-[100vw] " />
    </div>
       <div className=" bg-[#03131A] font-serif h-[100vh] text-white relative ">
   
@@ -87,3 +87,5 @@ function Contact() {
 }
 
 export default Contact;
+
+

@@ -42,11 +42,11 @@ function About() {
               projects.
             </p>
             <div className="flex justify-center">
-              <div className=" text-white text-center p-3  bg-gray-900 w-[10vw] mb-2 rounded-full hover:bg-gray-700 ">
+            <div className="text-white text-center p-3 bg-[#03131A] sm:w-1/4 mb-2 rounded-full hover:bg-gray-700">
                 <a
                   href={cv}
                   download="My_CV.pdf"
-                  className="flex justify-center font-mono font-bold"
+                  className="flex justify-center font-mono font-bold "
                 >
                   Download CV <IoMdDownload className=" ml-2 text-2xl " />
                 </a>
