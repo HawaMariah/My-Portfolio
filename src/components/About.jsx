@@ -1,5 +1,4 @@
 import React from "react";
-import Projects from "./Projects";
 
 import img from "../assets/html-removebg-preview.png";
 import img1 from "../assets/flask-removebg-preview.png";
@@ -21,8 +20,8 @@ function About() {
         <rect x={10} y={10} width={20} height={20} fill="white" stroke="blue" />
         </svg> */}
         <div className="flex justify-center    animate-flip-down animate-duration-1000  animate-ease-in  ">
-          <div className="w-full    mt-10  ">
-            <p className=" text-center font-bold  text-6xl font-mono mt-5  text-white">
+          <div className="w-full      ">
+            <p className=" text-center font-bold  text-6xl font-mono  text-white">
               About me
             </p>
             <p className="text-center px-10 pb-5 mt-5 text-gray-100 text-xl ">
@@ -41,12 +40,12 @@ function About() {
               opportunities to apply my skills and contribute to innovative
               projects.
             </p>
-            <div className="flex justify-center">
-            <div className="text-white text-center p-3 bg-[#03131A] sm:w-1/4 mb-2 rounded-full hover:bg-gray-700">
+            <div className=" flex justify-center mb-2">
+              <div className=" delay-150  hover:skew-y-2 shadow-xl  text-white text-center p-4 bg-[#03131A]   rounded-full hover:bg-gray-900 hover:border-b-2 hover:border-b-gray-700  w-fit ">
                 <a
                   href={cv}
                   download="My_CV.pdf"
-                  className="flex justify-center font-mono font-bold "
+                  className="flex justify-center font-mono font-bold  "
                 >
                   Download CV <IoMdDownload className=" ml-2 text-2xl " />
                 </a>
@@ -113,10 +112,8 @@ function About() {
             </div>
           </div>
         </div>
-        <Projects/>
-        <div className="pt-10"></div>
-    
 
+        <div className="pt-20"></div>
       </div>
     </>
   );
