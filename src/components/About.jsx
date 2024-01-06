@@ -1,4 +1,6 @@
 import React from "react";
+import Projects from "./Projects";
+
 import img from "../assets/html-removebg-preview.png";
 import img1 from "../assets/flask-removebg-preview.png";
 import img2 from "../assets/css-removebg-preview.png";
@@ -13,9 +15,13 @@ import { IoMdDownload } from "react-icons/io";
 function About() {
   return (
     <>
-      <div className="bg-[#03131A]  ">
+      <div className="bg-[#092327]  ">
+        {/* <svg viewBox="0 0 50 50 ">
+
+        <rect x={10} y={10} width={20} height={20} fill="white" stroke="blue" />
+        </svg> */}
         <div className="flex justify-center    animate-flip-down animate-duration-1000  animate-ease-in  ">
-          <div className="w-full   custom-shadow   mt-10 bg-gradient-to-b from-[#03131A] to-gray-500  ">
+          <div className="w-full    mt-10  ">
             <p className=" text-center font-bold  text-6xl font-mono mt-5  text-white">
               About me
             </p>
@@ -107,7 +113,10 @@ function About() {
             </div>
           </div>
         </div>
+        <Projects/>
         <div className="pt-10"></div>
+    
+
       </div>
     </>
   );

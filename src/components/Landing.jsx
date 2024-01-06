@@ -9,16 +9,17 @@ import { FaLinkedin } from "react-icons/fa";
 function Landing() {
   return (
     <>
-      <div className="bg-[#03131A] h-screen grid grid-col-1  lg:grid-cols-2 min-w-fit ">
+    <div className="relative  ">
+      <div className=" bg-[#03131A] h-screen grid grid-col-1  lg:grid-cols-2 min-w-fit  ">
         <div className=" flex items-center justify-center animate-fade-right animate-duration-1000  animate-ease-in  ">
-          <div className="relative">
+          <div className="relative mb-10">
             <img
               src={img}
               alt=""
               className="rounded-full  opacity-40 w-[40vw] border-b  "
             />
           </div>
-          <div className="absolute opacity-30 bottom-28  blur-sm  ">
+          <div className="absolute opacity-30 bottom-28  blur-sm   ">
             <img src={img1} alt="" className="w-[26vw] " />
           </div>
         </div>
@@ -77,7 +78,17 @@ function Landing() {
               <p className="ml-5 pt-3 font-mono "> Let's Connect!!</p>
             </div>
           </div>
-        </div>
+        
+        </div >
+      
+      </div>
+
+      <div className="wave">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" className="shape-fill"></path>
+    </svg>
+</div>
+      
       </div>
     </>
   );
