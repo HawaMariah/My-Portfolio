@@ -35,7 +35,7 @@ function Contact() {
             />
           </div>
         </div>
-        <div className="  absolute top-40 right-80 w-[40vw] bg-[#03131A]  p-10 containerr border-2 border-gray-800 ">
+        <div className=" absolute top-40 right-80  bg-[#03131A]  p-10 containerr border-2 border-gray-800 ">
           <h1 className="font-bold text-4xl ">Send Message</h1>
           <form action="#" className="mt-10">
             <div className="flex">
