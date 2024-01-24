@@ -40,12 +40,12 @@ function About() {
               opportunities to apply my skills and contribute to innovative
               projects.
             </p>
-            <div className=" flex justify-center mb-2">
-              <div className=" delay-150  hover:skew-y-2 shadow-xl  text-white text-center p-4 bg-[#03131A]   rounded-full hover:bg-gray-900 hover:border-b-2 hover:border-b-gray-700  w-fit ">
+            <div className=" flex justify-center  ">
+              <div className="h-[4rem]  delay-150  hover:skew-y-2 shadow-xl  text-white text-center p-4 bg-[#03131A]   rounded-full hover:bg-gray-900 hover:border-b-2 hover:border-b-gray-700   ">
                 <a
                   href={cv}
                   download="My_CV.pdf"
-                  className="flex justify-center font-mono font-bold  "
+                  className="flex items-center text-sm font-bold  "
                 >
                   Download CV <IoMdDownload className=" ml-2 text-2xl " />
                 </a>
