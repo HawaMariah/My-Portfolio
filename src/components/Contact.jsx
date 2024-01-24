@@ -7,23 +7,27 @@ import img1 from "../assets/wave-haikei (1).svg";
 function Contact() {
   return (
     <>
-      <div className="">
+      <div className="hidden md:block ">
         <img src={img1} alt="" className=" w-[100vw] " />
       </div>
       <div className=" bg-[#03131A] font-serif text-white ">
         <div className="flex w-full min-h-screen justify-center items-center">
-          <div className="flex flex-col space-y-6 md:flex-row md:space-x-40 md:space-y-0 bg-[#092327] w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-md hover:shadow-white ">
+          <div className="grid grid-cols-1 space-y-6 md:grid-cols-2 md:space-x-8 md:space-y-0 bg-[#092327] w-full max-w-7xl p-8 sm:p-12 rounded-xl shadow-md hover:shadow-white ">
             <div className="flex flex-col space-y-8 justify-between">
               <div>
                 <h1 className="font-bold  text-4xl tracking-wide">
                   {" "}
                   Contact Me
                 </h1>
-                <p className="pt-2 text-sm">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. .
+                <p className="pt-2 text-lg">
+                  Hello there!!
+                  <br />
+                  Whether you're interested in discussing a potential
+                  collaboration, have a job opportunity, or just want to
+                  connect, I'm all ears!{" "}
                 </p>
               </div>
-              <div className="flex flex-col space-y-6">
+              <div className="flex flex-col space-y-6 text-lg">
                 <div className="inline-flex space-x-2 items-center">
                   <FaPhoneVolume className="text-xl" />
                   <span>+254791435147</span>
@@ -70,7 +74,9 @@ function Contact() {
                       rows="4"
                     ></textarea>
                   </div>
-                  <button className="inline-bock self-end bg-gray-900 font-bold rounded-lg px-6 py-2 text-sm uppercase">Send message</button>
+                  <button className="inline-bock self-end bg-gray-900 font-bold rounded-lg px-6 py-2 text-sm uppercase">
+                    Send message
+                  </button>
                 </form>
               </div>
             </div>
