@@ -3,83 +3,78 @@ import img from "../assets/contact.jpg";
 import { TfiEmail } from "react-icons/tfi";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { SlLocationPin } from "react-icons/sl";
-import img1 from "../assets/wave-haikei (1).svg"
+import img1 from "../assets/wave-haikei (1).svg";
 function Contact() {
   return (
     <>
       <div className="">
-   <img src={img1} alt=""
-   className=" w-[100vw] " />
-   </div>
-      <div className=" bg-[#03131A] font-serif h-[100vh] text-white relative ">
-  
-        <div className="">
-          <div className="absolute bg-gray-900 top-10 left-10 p-10">
-            <h1 className="font-bold text-6xl tracking-wider">Contact Me:</h1>
-            <p className="text-2xl flex mt-10">
-              <TfiEmail className="mr-5" /> hawamaria33@gmail.com
-            </p>
-            <p className="text-2xl flex mt-10">
-              <FaPhoneVolume className="mr-5" /> +2547914235147
-            </p>
-            <p className="text-2xl flex mt-10">
-              <SlLocationPin className="mr-5" />
-              Nairobi,Kenya
-            </p>
-          </div>
-          <div className="">
-            <img
-              src={img}
-              alt=""
-              className="w-[60vw] h-[90vh] object-cover rounded opacity-30 ml-40  "
-            />
-          </div>
-        </div>
-        <div className=" absolute top-40 right-80  bg-[#03131A]  p-10 containerr border-2 border-gray-800 ">
-          <h1 className="font-bold text-4xl ">Send Message</h1>
-          <form action="#" className="mt-10">
-            <div className="flex">
-              <div className=" text-xl mb-10">
-                <label htmlFor="name"> Full Name:</label>
-                <br />
-                <input
-                  type="text"
-                  name="name"
-                  className="mt-3 bg-transparent px-0 py-1 border-b w-72 border-white focus:outline-none focus:border-gray-500"
-                  placeholder="Jane  Doe"
-                  required
-                />
+        <img src={img1} alt="" className=" w-[100vw] " />
+      </div>
+      <div className=" bg-[#03131A] font-serif text-white ">
+        <div className="flex w-full min-h-screen justify-center items-center">
+          <div className="flex flex-col space-y-6 md:flex-row md:space-x-40 md:space-y-0 bg-[#092327] w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-md hover:shadow-white ">
+            <div className="flex flex-col space-y-8 justify-between">
+              <div>
+                <h1 className="font-bold  text-4xl tracking-wide">
+                  {" "}
+                  Contact Me
+                </h1>
+                <p className="pt-2 text-sm">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. .
+                </p>
               </div>
-              <div className="mb-10 ml-10 text-xl">
-                <label htmlFor="email">E-mail:</label>
-                <br />
-                <input
-                  type="email"
-                  name="email"
-                  className="mt-3 bg-transparent px-0 py-1 w-72 border-b border-white focus:outline-none focus:border-gray-500"
-                  placeholder="example@youremail.com"
-                  required
-                />
+              <div className="flex flex-col space-y-6">
+                <div className="inline-flex space-x-2 items-center">
+                  <FaPhoneVolume className="text-xl" />
+                  <span>+254791435147</span>
+                </div>
+                <div className="inline-flex space-x-2 items-center">
+                  <TfiEmail className="text-xl" />
+                  <span>hawamaria33@gmail.com</span>
+                </div>
+                <div className="inline-flex space-x-2 items-center">
+                  <SlLocationPin className="text-xl" />
+                  <span>Nairobi,Kenya</span>
+                </div>
               </div>
-            </div>
-            <div className="text-xl">
-              <label htmlFor="message">Message:</label>
-              <br />
-              <textarea
-                name="message"
-                type="text"
-                cols="55"
-                placeholder="Hi there ..."
-                className="mt-3 bg-transparent px-0 py-1 border-b border-white focus:outline-none focus:border-gray-500"
-                required
-              ></textarea>
+              {/* <div></div> */}
             </div>
             <div>
-              <button type="submit" className="py-2 px-5 bg-slate-800 mt-5">
-                Submit
-              </button>
+              <div className="bg-white rounded-xl shadow-2xl shadow-black p-8 text-gray-600 md:w-90">
+                <form
+                  action="
+                "
+                  className="flex flex-col space-y-4"
+                >
+                  <div>
+                    <label htmlFor="" className="text-sm"></label> Your name
+                    <input
+                      type="text"
+                      placeholder="Your name"
+                      className="mt-2 ring-1 ring-gray-500 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-800 "
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="" className="text-sm"></label> Email
+                    <input
+                      type="email"
+                      placeholder="Your Email"
+                      className="mt-2 ring-1 ring-gray-500 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-800 "
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="" className="text-sm"></label> Message
+                    <textarea
+                      placeholder="Message"
+                      className="mt-2 ring-1 ring-gray-500 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-800 "
+                      rows="4"
+                    ></textarea>
+                  </div>
+                  <button className="inline-bock self-end bg-gray-900 font-bold rounded-lg px-6 py-2 text-sm uppercase">Send message</button>
+                </form>
+              </div>
             </div>
-          </form>
+          </div>
         </div>
       </div>
     </>
@@ -87,5 +82,3 @@ function Contact() {
 }
 
 export default Contact;
-
-

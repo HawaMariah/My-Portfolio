@@ -26,7 +26,7 @@ function Landing() {
           </div>
 
           <div className="flex items-center md:justify-center  bg-[#03131A]">
-            <div className=" text-white  animate-fade-left animate-duration-1000 animate-ease-in border-white  border w-[100%] md:w-[50vw]  lg:w-[40vw]  p-10 containerr bg-gradient-to-b from-[#03131A] to-gray-500">
+            <div className=" text-white  animate-fade-left animate-duration-1000 animate-ease-in   w-[100%] md:w-[50vw]  lg:w-[40vw]  p-10 containerr bg-gradient-to-b from-[#03131A] to-gray-500">
               <p className="uppercase text-xl md:text-4xl mb-4 font-mono font-bold">
                 Hi There,
               </p>
@@ -53,32 +53,32 @@ function Landing() {
               </div>
               <div className="  text-4xl mt-5 ">
                 <div className="flex ">
-                <a
-                  href="https://instagram.com/hawa_maria_?igshid=OGQ5ZDc2ODk2ZA==/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="  hover:text-pink-700 p-2 rounded-full 2xl:border-2 "
-                >
-                  <FaInstagram />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/hawa-maria-338511288/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="ml-4  hover:text-blue-700  2xl:border-2 p-2 rounded-full"
-                >
-                  <FaLinkedin />
-                </a>
-                <a
-                  href="https://twitter.com/hawa_maria1?t=vaOHYqU3G0hRiiNZB1R0ag&s=09/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="ml-4  hover:text-blue-600  2xl:border-2 p-2 rounded-full "
-                >
-                  <FaXTwitter />
-                </a>
+                  <a
+                    href="https://instagram.com/hawa_maria_?igshid=OGQ5ZDc2ODk2ZA==/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="  hover:text-pink-700 p-2 rounded-full 2xl:border-2  border-gray-800  "
+                  >
+                    <FaInstagram />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/hawa-maria-338511288/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-4  hover:text-blue-700  2xl:border-2 p-2 rounded-full border-gray-800"
+                  >
+                    <FaLinkedin />
+                  </a>
+                  <a
+                    href="https://twitter.com/hawa_maria1?t=vaOHYqU3G0hRiiNZB1R0ag&s=09/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-4  hover:text-blue-600  2xl:border-2 p-2 rounded-full border-gray-800 "
+                  >
+                    <FaXTwitter />
+                  </a>
                 </div>
-              
+
                 <p className=" pt-3 font-mono text-2xl sm:text-4xl  ">
                   {" "}
                   Let's Connect!!

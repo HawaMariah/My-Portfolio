@@ -14,7 +14,7 @@ import { IoMdDownload } from "react-icons/io";
 function About() {
   return (
     <>
-      <div className="bg-[#092327] sm:pt-28 lg:pt-0 ">
+      <div className="bg-[#092327] sm:pt-28 xl:pt-0 ">
         {/* <svg viewBox="0 0 50 50 ">
 
         <rect x={10} y={10} width={20} height={20} fill="white" stroke="blue" />
