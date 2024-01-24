@@ -8,7 +8,7 @@ import img4 from "../assets/sql-removebg-preview.png";
 import img5 from "../assets/react-removebg-preview.png";
 import img6 from "../assets/tail-removebg-preview (2).png";
 import img7 from "../assets/js-removebg-preview.png";
-import cv from "../assets/My Cv.pdf";
+import cv from "../assets/Hawa_cv.pdf";
 import { IoMdDownload } from "react-icons/io";
 
 function About() {
@@ -44,7 +44,7 @@ function About() {
               <div className="h-[4rem]  delay-150  hover:skew-y-2 shadow-xl  text-white text-center p-4 bg-[#03131A]   rounded-full hover:bg-gray-900 hover:border-b-2 hover:border-b-gray-700   ">
                 <a
                   href={cv}
-                  download="My_CV.pdf"
+                  download="Hawa_cv.pdf"
                   className="flex items-center text-sm font-bold  "
                 >
                   Download CV <IoMdDownload className=" ml-2 text-2xl " />
